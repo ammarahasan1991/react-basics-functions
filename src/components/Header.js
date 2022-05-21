@@ -17,7 +17,7 @@ function Header() {
         <div className="navbar bg-dark rounded text-white">
             hello {`${info.name} ${info.nick}`}
             <h2>
-                {client == "Designer" ? title.designer : title.programmer}
+                {client === "Designer" ? title.designer : title.programmer}
                 is my life
             </h2>
         </div>
